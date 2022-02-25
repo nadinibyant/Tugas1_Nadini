@@ -8,6 +8,15 @@ public class nomor_6 {
         for (int i = 0; i < nama.length; i++) {
             nama2.add(nama[i]);
         }
+        
+        nama2.remove(0);
+        System.out.println("Hasil data setelah remove 0 : " + nama2);
+
+        nama2.remove(3);
+        System.out.println("Hasil data setelah remove 3 : " + nama2);
+
+        nama2.remove(2);
+        System.out.println("Hasil data setelah remove 2 : " + nama2);
 
         // add()
         nama2.add(0, "e");
