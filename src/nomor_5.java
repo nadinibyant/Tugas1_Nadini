@@ -8,6 +8,12 @@ public class nomor_5 {
         for (int i = 0; i < nama.length; i++) {
             nama2.add(nama[i]);
         }
+        // data sebelum remove
+        System.out.println("data sebelum di remove : ");
+        for (int i = 0; i < nama.length; i++) {
+            System.out.println("data index ke - " + i + " : " + nama[i]);
+        }
+
 
         // remove()
         nama2.remove(0);
