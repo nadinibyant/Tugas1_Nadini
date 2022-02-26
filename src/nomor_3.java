@@ -11,6 +11,7 @@ public class nomor_3 {
 
         // get()
         System.out.println("value data nama index ke-0 : " + nama2.get(0));
+        System.out.println("value data nama index ke-0 : " + nama2.get(2));
         System.out.println("value data nama index ke-0 : " + nama2.get(6));
         System.out.println("value data nama index ke-0 : " + nama2.get(-3));
     }
